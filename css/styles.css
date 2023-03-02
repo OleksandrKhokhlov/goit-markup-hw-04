@@ -285,7 +285,8 @@ img {
 	border: 1px solid var(--subtle-text);
 	border-radius: 4px;
 }
-.customers-tumb:focus, .customers-tumb:hover {
+.customers-tumb:focus,
+.customers-tumb:hover {
 	color: var(--pressed-state);
 	border-color: var(--pressed-state);
 }
@@ -293,13 +294,15 @@ img {
 	width: 104px;
 	height: 56px;
 	fill: currentColor;
-	
 }
 /* footer */
 .footer {
 	background-color: var(--dark);
 	padding-top: 100px;
 	padding-bottom: 100px;
+}
+.footer-container {
+	display: flex;
 }
 .footer-logo {
 	font-family: "Raleway", sans-serif;
@@ -315,6 +318,30 @@ img {
 .footer-text {
 	color: var(--accent);
 	max-width: 264px;
+}
+.footer-title {
+	font-size: 16px;
+	font-weight: 500;
+	color: var(--background-color-primary);
+	margin-bottom: 16px;
+}
+.footer-social {
+	margin-left: 120px;
+}
+.footer-icon-list {
+	display: flex;
+	justify-content: center;
+	gap: 16px;
+}
+.footer-social-link {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-social-link:hover, .footer-social-link:focus {
+	background-color: var(--success);
+}
+.footer-icon {
+	width: 24px;
+	height: 24px;
 }
 /* --------------------portfolio.html----------------------- */
 .filtr-list {
