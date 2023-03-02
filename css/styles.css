@@ -270,6 +270,31 @@ img {
 	width: 16px;
 	height: 16px;
 }
+/* ------------------Customers section----------------------- */
+.customers {
+	padding-top: 130px;
+}
+.customers-list {
+	display: flex;
+	justify-content: center;
+	gap: 24px;
+}
+.customers-tumb {
+	padding: 16px 32px;
+	color: var(--subtle-text);
+	border: 1px solid var(--subtle-text);
+	border-radius: 4px;
+}
+.customers-tumb:focus, .customers-tumb:hover {
+	color: var(--pressed-state);
+	border-color: var(--pressed-state);
+}
+.customers-icon {
+	width: 104px;
+	height: 56px;
+	fill: currentColor;
+	
+}
 /* footer */
 .footer {
 	background-color: var(--dark);
