@@ -186,6 +186,16 @@ img {
 	display: flex;
 	gap: var(--horizontal-gap);
 }
+.advantages-tumb {
+	padding: 24px 100px;
+	margin-bottom: 8px;
+	background-color: var(--light);
+	border-radius: 4px;
+}
+.advantages-icon {
+	width: 64px;
+	height: 64px;
+}
 .advantages-title {
 	font-weight: 500;
 	font-size: 20px;
@@ -252,7 +262,8 @@ img {
 	background-color: var(--primary-brand);
 	border-radius: 50%;
 }
-.social-link:hover, .social-link:focus {
+.social-link:hover,
+.social-link:focus {
 	background-color: var(--pressed-state);
 }
 .icon-social {
