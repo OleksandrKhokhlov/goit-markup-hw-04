@@ -192,10 +192,7 @@ img {
 	background-color: var(--light);
 	border-radius: 4px;
 }
-.advantages-icon {
-	width: 64px;
-	height: 64px;
-}
+
 .advantages-title {
 	font-weight: 500;
 	font-size: 20px;
@@ -256,7 +253,7 @@ img {
 .social-link {
 	width: 40px;
 	height: 40px;
-	display: inline-flex;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-color: var(--primary-brand);
@@ -266,10 +263,7 @@ img {
 .social-link:focus {
 	background-color: var(--pressed-state);
 }
-.icon-social {
-	width: 16px;
-	height: 16px;
-}
+
 /* ------------------Customers section----------------------- */
 .customers {
 	padding-top: 130px;
@@ -284,6 +278,7 @@ img {
 	color: var(--subtle-text);
 	border: 1px solid var(--subtle-text);
 	border-radius: 4px;
+	display: flex;
 }
 .customers-tumb:focus,
 .customers-tumb:hover {
@@ -291,8 +286,6 @@ img {
 	border-color: var(--pressed-state);
 }
 .customers-icon {
-	width: 104px;
-	height: 56px;
 	fill: currentColor;
 }
 /* footer */
@@ -334,15 +327,16 @@ img {
 	gap: 16px;
 }
 .footer-social-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background-color: rgba(255, 255, 255, 0.1);
 }
-.footer-social-link:hover, .footer-social-link:focus {
+.footer-social-link:hover,
+.footer-social-link:focus {
 	background-color: var(--success);
 }
-.footer-icon {
-	width: 24px;
-	height: 24px;
-}
+
 /* --------------------portfolio.html----------------------- */
 .filtr-list {
 	display: flex;
