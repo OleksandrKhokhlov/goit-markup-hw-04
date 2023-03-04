@@ -191,10 +191,14 @@ img {
 	gap: var(--horizontal-gap);
 }
 .advantages-tumb {
-	padding: 24px 100px;
+	min-width: 100%;
+	min-height: 112px;
 	margin-bottom: 8px;
 	background-color: var(--light);
 	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .advantages-title {
@@ -235,7 +239,7 @@ img {
 }
 
 .team-item > p {
-	padding-bottom: 8px;
+	margin-bottom: 8px;
 }
 .team-title {
 	color: var(--dark);
@@ -278,11 +282,14 @@ img {
 	gap: 24px;
 }
 .customers-tumb {
-	padding: 16px 32px;
+	min-width: 168px;
+	min-height: 88px;
 	color: var(--subtle-text);
 	border: 1px solid var(--subtle-text);
 	border-radius: 4px;
 	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .customers-tumb:focus,
 .customers-tumb:hover {
@@ -387,7 +394,11 @@ img {
 .card-item {
 	flex-basis: calc(100% / 3 - var(--horizontal-gap));
 }
-.card-item:focus, .card-item:hover {
+.card {
+	display: block;
+}
+.card:focus,
+.card:hover {
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .card-description {
