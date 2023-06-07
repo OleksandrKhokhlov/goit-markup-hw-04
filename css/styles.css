@@ -113,6 +113,7 @@ img {
 	color: var(--primary-brand);
 }
 .link-nav {
+	position: relative;
 	font-weight: 500;
 	color: var(--dark);
 	padding: var(--header-padding);
@@ -122,6 +123,7 @@ img {
 .link-nav:focus {
 	color: var(--pressed-state);
 }
+
 .address {
 	margin-left: auto;
 }
